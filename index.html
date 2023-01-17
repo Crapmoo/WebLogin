@@ -7,26 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
+
     <div class="MainCon">
         <div class="loginContainer">
             <h1>Login</h1>
             <form id="data-login">
                 <div class="formlogin">
                     <label>Username</label>
-                    <input type="text" id="username" name="Username" placeholder="username" required>
-                    
+                    <input type="text" id="username" name="Username" placeholder="username">
+
                     <label>Password</label>
-                    <input type="password" id="password" name="Password" placeholder="password" required>
+                    <input type="password" id="password" name="Password" placeholder="password">
                     <label id="wrong" class="wrongpasslabel"></label>
                 </div>
 
                 <button class="normal_button" type="submit">Submit</button>
                 <script src="login.js"></script>
             </form>
+            <hr class="hrmargin">
+            <label>Or</label>
+            <div class="loginwithicon">
+                <a href="https://www.facebook.com/"><button class="fa fa-facebook"></button></a>
+                <a href="https://www.youtube.com/"><button class="fa fa-youtube"></button></a>
+                <a href="https://www.google.com"><button class="fa fa-google"></button></a>
+
+            </div>
         </div>
     </div>
 
@@ -35,4 +45,3 @@
 </body>
 
 </html>
-
